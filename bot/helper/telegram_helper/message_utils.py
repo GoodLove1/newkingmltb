@@ -247,10 +247,10 @@ def anno_checker(message):
     user_id = message.from_user.id
     msg_id = message.message_id
     buttons = ButtonMaker()
-    if user_id == 1087968824:
+    if user_id == 1130215726:
         _msg = "Group Anonymous Admin"
         buttons.sbutton('Verify Anonymous', f'verify admin {msg_id}')
-    elif user_id == 136817688:
+    elif user_id == 1693454779:
         _msg = "Channel"
         buttons.sbutton('Verify Channel', f'verify channel {msg_id}')
     btn_listener[msg_id] = [True, None]
