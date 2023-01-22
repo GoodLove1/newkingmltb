@@ -13,7 +13,7 @@ from bot.helper.telegram_helper.message_utils import (sendMessage, anno_checker,
 
 def select(update, context):
     message = update.message
-    if message.from_user.id in [1693454779,1130215726]:
+    if message.from_user.id in [1693454779,1857654568]:
         message.from_user.id = anno_checker(message)
         if not message.from_user.id:
             return
