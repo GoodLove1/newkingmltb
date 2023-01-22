@@ -54,7 +54,7 @@ non_queued_dl = set()
 non_queued_up = set()
 
 try:
-    if bool(environ.get('_____REMOVE_THIS_LINE_____')):
+    if bool(environ.get('')):
         error('The README.md file there to be read! Exiting now!')
         exit()
 except:
